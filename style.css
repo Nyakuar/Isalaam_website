@@ -1,6 +1,3 @@
-
-
-
 body {
     margin: 0px;
     padding: 0px;
@@ -16,6 +13,70 @@ body {
     text-align: center;
     color: white;
 }
+.aboutInfo h1{
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slidein {
+      0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    }
+    .categoryTitle h1{
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slidein {
+      0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    }
+    .right h3{
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slidein {
+      0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    }
+    .container h2{
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slidein {
+      0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    }
 a {
     text-decoration: none;
     color: black;
@@ -101,13 +162,7 @@ a.btn-dark:focus {
     width: 100%;
     display: flex;
     margin: auto;
-    /* animation-timing-function: 8s;
-   animation-duration: 10s;
-    animation-name: slidein;
-    animation-iteration-count: infinite; */
-    
 }
-
 .mainBanner .left {
     width: 30%;
     margin: auto;
@@ -332,23 +387,12 @@ a.btn-dark:focus {
 .banner1 .left {
     width: 50%;
     background: url(/image/Frames.png);
-    animation-name: slidein;
+     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: 7s;
-    
-}
-@keyframes slidein {
-    0% {
-      margin-left: 0%;
-    }
-    50% {
-      margin-left: 300px;
-    }
-    100% {
-      margin-left: 0%;
-     }
-    }
-
+    animation-timing-function: 1s;
+   position: relative;
+  animation-delay: 2s;
+}nimation-
 .banner1 .right {
     margin: auto;
 }
@@ -489,7 +533,6 @@ p {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
 }
-
 .discountSymbol {
     position: relative;
     display: grid;
@@ -533,25 +576,19 @@ footer .crtext {
     margin: auto;
     display: flex;
 }
-
-
 footer .crtext p {
     margin: auto;
 }
-
 footer {
     background-color: white;
 }
-
 .back{
     background-color: #751FFF;
 }
-
 .backss{
     background-image: url(/image/backgrd.how.it\ works.png);
     background-repeat: no-repeat;
 }
-
  @keyframes slidein {
   0% {
     margin-left: 0%;
@@ -570,27 +607,12 @@ footer {
     100% {
       margin-left: 0%;
      }
-        
-     } 
+     }
    margin-left: 0%;
-   } 
+   }
  }
- 
  .footerIcon{list-style: none;
-
 flex-direction: row;
 justify-content: left;
- 
 }
-/* 
-products-nav{
-    color: rgb(255, 255, 255);
-} */
 
- /* .hotdeal-image{
-    animation-duration: 40s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-}  */
-
-    
