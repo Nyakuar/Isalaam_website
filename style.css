@@ -611,8 +611,37 @@ footer {
    margin-left: 0%;
    }
  }
- .footerIcon{list-style: none;
+ /* .footerIcon{list-style: none;
 flex-direction: row;
 justify-content: left;
-}
-
+} */
+.footerIcon{list-style: none;
+    /* flex-direction: row; */
+    /* justify-content: left; */
+    }
+    .icon4{
+        display: flex;
+        padding-left: 40%;
+    
+    }
+    
+    .icon3{
+        display: flex;
+        padding-left: 40%;
+    
+    
+    }
+    .icon2{
+     display: flex;
+     padding-left: 40%;
+    
+    
+    }
+    .icon1{
+    display: flex;
+    padding-left: 40%;
+    
+    
+    
+    }
+    
