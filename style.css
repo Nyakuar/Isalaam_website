@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #EDECEC;
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 .cartNum {
@@ -380,13 +380,13 @@ a.btn-dark:focus {
 }
 .banner1 {
     display: flex;
-    background-color: #000000;
+    background-color: #504f4f;
     color: white;
     height: 372px;
 }
 .banner1 .left {
     width: 50%;
-    background: url(/image/Frames.png);
+    background: url(/features.png);
      animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: 1s;
